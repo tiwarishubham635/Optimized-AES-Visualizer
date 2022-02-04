@@ -1,8 +1,7 @@
 # Optimized AES Visualizer
   An Optimized Implementation and Visual Representation of Advanced Encryption Standard (AES)
   
-## Deployed Link: 
-  http://optimizedaesvisualizer.pythonanywhere.com <br/>
+#### Deployed Link: http://optimizedaesvisualizer.pythonanywhere.com <br/>
 
 ![Screenshot](cover.jpg)
 
