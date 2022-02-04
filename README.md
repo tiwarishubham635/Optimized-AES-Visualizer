@@ -1,16 +1,38 @@
-# AES encryption visualizer
+# Optimized AES Visualizer
+  An Optimized Implementation and Visual Representation of Advanced Encryption Standard (AES)
+  
+  #### Deployed Link: http://optimizedaesvisualizer.pythonanywhere.com <br/>
 
-This tool lets you understand the process of AES encryption.  
-For Germans it can also be interesting to watch my presentation with which I explained several encryption methods in school.
+![Screenshot](cover.jpg)
 
-## Executing
+## Description
 
-To follow the (by the way fantastic) explanations of [this site](http://www.moserware.com/2009/09/stick-figure-guide-to-advanced.html),
-you could use something like this where the first parameter is your plaintext and the second is the passphrase:  
-`python visualizer.py "ATTACK AT DAWN!" "SOME 128 BIT KEY"`  
-If you only want to test the encryption of this tool or you already know how AES works you might want to use this instead:  
-`python encrypt.py "ATTACK AT DAWN!" "SOME 128 BIT KEY"`
+This is the implementation of an optimized version of AES with 128-bit block size with NO restriction on key size. The key can even be as small as 1 character! It uses a hashed Key for encryption-decryption using the standard SHA-512 hashing algorithm. The implementation also improvises the ShiftRows Transformation of AES round. This also includes a visual representation of all the processes. It improves the Avalanche effect of AES from 49.625% to 50.1% for given pairs.
 
-Improved Avalanche effect
-50
-49.625
+## ✔ Salient Features
+
+- Attractive and Responsive UI
+- High Speed Encryption-Decryption
+- Highly Secure Hashing and Encryption Algorithms
+- Improved efficiency over standard AES
+- Interactive Visual Representation
+
+## ✔ How It works :
+- To encrypt/decrypt a text, enter the text along with the key in the input box as per the requirement.
+- Press Encrypt/Decrypt Button
+- The new page will display the ciphertext/plaintext as well as all the steps involved in the process with th ehelp of diagrams and animations
+
+## ✔ Technologies used :
+- HTML
+- CSS
+- Python
+- Flask
+
+## ✔ To run the repository on the system:
+
+- Clone the repository using "git clone https://github.com/tiwarishubham635/Optimized-AES-Visualizer.git"
+- Run the following command:
+
+```
+python app.py
+```
