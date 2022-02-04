@@ -1,11 +1,11 @@
 # Optimized AES Visualizer
   An Optimized Implementation and Visual Representation of Advanced Encryption Standard (AES)
   
-  #### Deployed Link: http://optimizedaesvisualizer.pythonanywhere.com <br/>
+# Deployed Link: http://optimizedaesvisualizer.pythonanywhere.com <br/>
 
 ![Screenshot](cover.jpg)
 
-## Description
+## ✔ Description
 
 This is the implementation of an optimized version of AES with 128-bit block size with NO restriction on key size. The key can even be as small as 1 character! It uses a hashed Key for encryption-decryption using the standard SHA-512 hashing algorithm. The implementation also improvises the ShiftRows Transformation of AES round. This also includes a visual representation of all the processes. It improves the Avalanche effect of AES from 49.625% to 50.1% for given pairs.
 
